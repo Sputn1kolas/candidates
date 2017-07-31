@@ -15,7 +15,8 @@ require './filters'
 
 # puts find(7)
 
-pp qualified_candidates(@candidates)
+#pp qualified_candidates(@candidates)
 
 # pp "pretty prints" out the candidates.
 # pp @candidates
+pp sortByExperienceAndGit(@candidates)
