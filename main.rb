@@ -9,4 +9,9 @@ require './filters'
 
 # binding.pry
 
-pp @candidates
+@candidates.each do |candidate|
+  puts experienced?(candidate)
+end
+
+# pp "pretty prints" out the candidates.
+# pp @candidates
